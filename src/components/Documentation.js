@@ -113,17 +113,17 @@ class Doc extends Component {
           <table>
             <tr>
               <td className='td-welcome'>
-                <img className='mini-logo-website' src='./../../websiteicon.png'/>
+                <img className='mini-logo-website' src='./../../images/1.png'/>
                 <h3 className='td-title'>Take Control</h3>
                 <p className='td-sub'>By injecting our script into the top level of the front-end of your app and cloning our interface from Github, as a developer you now have the tools to manage your own focus groups remotely and fully capture user sessions on your website.</p>
               </td>
               <td className='td-welcome'>
-                <img className='mini-logo-database' src='./../../databaseicon.png'/>
+                <img className='mini-logo-database' src='./../../images/2.png'/>
                 <h3 className='td-title'>Bring the Best to Market</h3>
                 <p className='td-sub'>Now that all of the management power is in your hands, you can analyze a variety of user interactions and determine the best course of action in redesigning to drastically improve UX in all of your deployed websites, with confidence.</p>
               </td>
               <td className='td-welcome'>
-                <img className='mini-logo-machinelearning' src='./../../machinelearningicon.png'/>                
+                <img className='mini-logo-machinelearning' src='./../../images/3.png'/>                
                 <h3 className='td-title'>Scalability</h3>
                 <p className='td-sub'>With an open source approach to this solution, we've discovered a way to keep costs completely free out-of-the box while giving you complete control over your costs by giving the developer's the option of providing their own server</p>
               </td>
@@ -150,15 +150,15 @@ class Doc extends Component {
             <tr>
               <td className='td-welcome'>
                 <a href='https://github.com/morpherious'><Paper zDepth={2} style={style.team} circle={true}></Paper></a><br/><br/><br/>
-                <img className='linkedin-logo' src='/public/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Mustafa Khan' href='https://www.linkedin.com/in/-mustafakhan/'></FlatButton>
+                <img className='linkedin-logo' src='./../../images/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Mustafa Khan' href='https://www.linkedin.com/in/-mustafakhan/'></FlatButton>
               </td>
                 <td className='td-welcome'>
                 <a href='https://github.com/mm0nr0e'><Paper zDepth={2} style={style.team} circle={true}></Paper></a><br/><br/><br/>
-                <img className='linkedin-logo2' src='/public/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Miranda Monroe' href='https://www.linkedin.com/in/mirandajeanmonroe/'></FlatButton>
+                <img className='linkedin-logo2' src='./../../images/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Miranda Monroe' href='https://www.linkedin.com/in/mirandajeanmonroe/'></FlatButton>
               </td>
               <td className='td-welcome'>
                 <a href='https://github.com/j3rryj'><Paper zDepth={2} style={style.team} circle={true}></Paper></a><br/><br/><br/>
-                <img className='linkedin-logo' src='/public/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Jerry Jong' href='https://www.linkedin.com/in/jerry-jong-94055/'></FlatButton>
+                <img className='linkedin-logo' src='./../../images/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Jerry Jong' href='https://www.linkedin.com/in/jerry-jong-94055/'></FlatButton>
               </td>
             </tr>
           </table>

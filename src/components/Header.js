@@ -54,7 +54,7 @@ class Header extends Component {
           id="myTopnav"
           >
           <div className="topnav-content">
-            <img className='logo' src='./../../logo.png'/>
+            <img className='logo' src='./../../images/logo.png'/>
             <Link to='/'>
               <FlatButton hoverColor='none' labelStyle={style.label} label='Spion IO' />
             </Link>

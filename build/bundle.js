@@ -39987,7 +39987,7 @@ var Header = function (_Component) {
           _react2.default.createElement(
             'div',
             { className: 'topnav-content' },
-            _react2.default.createElement('img', { className: 'logo', src: './../../logo.png' }),
+            _react2.default.createElement('img', { className: 'logo', src: './../../images/logo.png' }),
             _react2.default.createElement(
               _reactRouterDom.Link,
               { to: '/' },
@@ -43874,7 +43874,7 @@ var Doc = function (_Component) {
               _react2.default.createElement(
                 'td',
                 { className: 'td-welcome' },
-                _react2.default.createElement('img', { className: 'mini-logo-website', src: './../../websiteicon.png' }),
+                _react2.default.createElement('img', { className: 'mini-logo-website', src: './../../images/1.png' }),
                 _react2.default.createElement(
                   'h3',
                   { className: 'td-title' },
@@ -43889,7 +43889,7 @@ var Doc = function (_Component) {
               _react2.default.createElement(
                 'td',
                 { className: 'td-welcome' },
-                _react2.default.createElement('img', { className: 'mini-logo-database', src: './../../databaseicon.png' }),
+                _react2.default.createElement('img', { className: 'mini-logo-database', src: './../../images/2.png' }),
                 _react2.default.createElement(
                   'h3',
                   { className: 'td-title' },
@@ -43904,7 +43904,7 @@ var Doc = function (_Component) {
               _react2.default.createElement(
                 'td',
                 { className: 'td-welcome' },
-                _react2.default.createElement('img', { className: 'mini-logo-machinelearning', src: './../../machinelearningicon.png' }),
+                _react2.default.createElement('img', { className: 'mini-logo-machinelearning', src: './../../images/3.png' }),
                 _react2.default.createElement(
                   'h3',
                   { className: 'td-title' },
@@ -43977,7 +43977,7 @@ var Doc = function (_Component) {
                   _react2.default.createElement('br', null),
                   _react2.default.createElement('br', null),
                   _react2.default.createElement('br', null),
-                  _react2.default.createElement('img', { className: 'linkedin-logo', src: '/public/linkedin.png' }),
+                  _react2.default.createElement('img', { className: 'linkedin-logo', src: './../../images/linkedin.png' }),
                   _react2.default.createElement(_FlatButton2.default, { style: { float: 'left', marginTop: '1%', margin: '0 auto' }, hoverColor: 'none', labelStyle: { letterSpacing: '3px', padding: '0' }, label: 'Mustafa Khan', href: 'https://www.linkedin.com/in/-mustafakhan/' })
                 ),
                 _react2.default.createElement(
@@ -43991,7 +43991,7 @@ var Doc = function (_Component) {
                   _react2.default.createElement('br', null),
                   _react2.default.createElement('br', null),
                   _react2.default.createElement('br', null),
-                  _react2.default.createElement('img', { className: 'linkedin-logo2', src: '/public/linkedin.png' }),
+                  _react2.default.createElement('img', { className: 'linkedin-logo2', src: './../../images/linkedin.png' }),
                   _react2.default.createElement(_FlatButton2.default, { style: { float: 'left', marginTop: '1%', margin: '0 auto' }, hoverColor: 'none', labelStyle: { letterSpacing: '3px', padding: '0' }, label: 'Miranda Monroe', href: 'https://www.linkedin.com/in/mirandajeanmonroe/' })
                 ),
                 _react2.default.createElement(
@@ -44005,7 +44005,7 @@ var Doc = function (_Component) {
                   _react2.default.createElement('br', null),
                   _react2.default.createElement('br', null),
                   _react2.default.createElement('br', null),
-                  _react2.default.createElement('img', { className: 'linkedin-logo', src: '/public/linkedin.png' }),
+                  _react2.default.createElement('img', { className: 'linkedin-logo', src: './../../images/linkedin.png' }),
                   _react2.default.createElement(_FlatButton2.default, { style: { float: 'left', marginTop: '1%', margin: '0 auto' }, hoverColor: 'none', labelStyle: { letterSpacing: '3px', padding: '0' }, label: 'Jerry Jong', href: 'https://www.linkedin.com/in/jerry-jong-94055/' })
                 )
               )
