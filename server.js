@@ -44,6 +44,10 @@ app.get('/images/mustafa.JPG', (req, res) => {
     res.sendFile(path.join(__dirname, '/images/mustafa.JPG'))
 })
 
+app.get('/images/screen.png', (req, res) => {
+    res.sendFile(path.join(__dirname, '/images/screen.png'))
+})
+
 
 app.listen(3000, () => {
     console.log('App listening on port 3000')
