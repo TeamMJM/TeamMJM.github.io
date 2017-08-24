@@ -43943,7 +43943,7 @@ var Doc = function (_Component) {
             _react2.default.createElement(
               'p',
               { className: 'gif' },
-              _react2.default.createElement('img', { style: { width: '795px', height: '550px' }, src: './../../images/screen.png' })
+              _react2.default.createElement('img', { style: { width: '850px', height: '550px' }, src: './../../images/screen.png' })
             )
           )
         ),

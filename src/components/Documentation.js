@@ -137,7 +137,7 @@ class Doc extends Component {
           <hr style={{marginBottom: '2%', borderColor: 'lightgray', color: 'lightgray'}} width='15%'/>
           <h1 className='doc-section3-title'>The platform for managing modern front-end <br/>web applications.</h1>
           <hr style={{marginTop: '2%', borderColor: 'lightgray', color: 'lightgray'}} width='15%'/>
-          <br/><br/><br/><br/><br/><br/><p className='gif'><img style={{width: '795px', height: '550px'}} src='./../../images/screen.png'/></p>
+          <br/><br/><br/><br/><br/><br/><p className='gif'><img style={{width: '850px', height: '550px'}} src='./../../images/screen.png'/></p>
           </div>
         </div>
 
