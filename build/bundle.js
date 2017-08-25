@@ -43777,14 +43777,14 @@ var Doc = function (_Component) {
           (0, _jquery2.default)(".doc-section2").addClass("doc-section2-visible");
           (0, _jquery2.default)(".doc-section2").removeClass("animated zoomIn");
         }
-        if ((0, _jquery2.default)(window).scrollTop() > 970 && (0, _jquery2.default)(window).scrollTop() < 2000) {
+        if ((0, _jquery2.default)(window).scrollTop() > 970 && (0, _jquery2.default)(window).scrollTop() < 2400) {
           (0, _jquery2.default)(".doc-section3-content").removeClass("doc-section3-visible");
           (0, _jquery2.default)(".doc-section3-content").addClass("animated fadeInLeftBig");
         } else {
           (0, _jquery2.default)(".doc-section3-content").addClass("doc-section3-visible");
           (0, _jquery2.default)(".doc-section3-content").removeClass("animated fadeInLeftBig");
         }
-        if ((0, _jquery2.default)(window).scrollTop() > 2630 && (0, _jquery2.default)(window).scrollTop() < 3200) {
+        if ((0, _jquery2.default)(window).scrollTop() > 2920 && (0, _jquery2.default)(window).scrollTop() < 3600) {
           (0, _jquery2.default)(".doc-section4-letsbuild").removeClass("doc-section4-letsbuild-visible");
           (0, _jquery2.default)(".doc-section4-letsbuild").addClass("animated zoomIn");
         } else {
@@ -43954,7 +43954,7 @@ var Doc = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'https://github.com/morpherious' },
-                    _react2.default.createElement(_Avatar2.default, { style: { height: '200px', width: '360px', marginBottom: '20%', marginTop: '20%', transform: 'rotate(270deg)' }, src: './../../images/mustafa.JPG' })
+                    _react2.default.createElement(_Avatar2.default, { style: { height: '200px', width: '360px', marginBottom: '10%', marginTop: '10%', transform: 'rotate(270deg)' }, src: './../../images/mustafa.JPG' })
                   ),
                   _react2.default.createElement('br', null),
                   _react2.default.createElement('br', null),
@@ -43968,7 +43968,7 @@ var Doc = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'https://github.com/mm0nr0e' },
-                    _react2.default.createElement(_Avatar2.default, { style: { height: '200px', width: '360px', marginBottom: '20%', marginTop: '20%', transform: 'rotate(270deg)' }, src: './../../images/miranda.JPG' })
+                    _react2.default.createElement(_Avatar2.default, { style: { height: '200px', width: '360px', marginBottom: '10%', marginTop: '10%', transform: 'rotate(270deg)' }, src: './../../images/miranda.JPG' })
                   ),
                   _react2.default.createElement('br', null),
                   _react2.default.createElement('br', null),
@@ -43982,7 +43982,7 @@ var Doc = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'https://github.com/j3rryj' },
-                    _react2.default.createElement(_Avatar2.default, { style: { height: '200px', width: '360px', marginBottom: '20%', marginTop: '20%', transform: 'rotate(270deg)' }, src: './../../images/jerry.JPG' })
+                    _react2.default.createElement(_Avatar2.default, { style: { height: '200px', width: '360px', marginBottom: '10%', marginTop: '10%', transform: 'rotate(270deg)' }, src: './../../images/jerry.JPG' })
                   ),
                   _react2.default.createElement('br', null),
                   _react2.default.createElement('br', null),

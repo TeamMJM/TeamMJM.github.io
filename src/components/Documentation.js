@@ -48,14 +48,14 @@ class Doc extends Component {
         $(".doc-section2").addClass("doc-section2-visible");
         $(".doc-section2").removeClass("animated zoomIn");
       }
-      if ( ($(window).scrollTop() > 970 ) && ($(window).scrollTop() < 2000) ) {
+      if ( ($(window).scrollTop() > 970 ) && ($(window).scrollTop() < 2400) ) {
         $(".doc-section3-content").removeClass("doc-section3-visible");
         $(".doc-section3-content").addClass("animated fadeInLeftBig");
       } else {
         $(".doc-section3-content").addClass("doc-section3-visible");
         $(".doc-section3-content").removeClass("animated fadeInLeftBig")
       }
-      if ( ($(window).scrollTop() > 2630 ) && ($(window).scrollTop() < 3200) ) {
+      if ( ($(window).scrollTop() > 2920 ) && ($(window).scrollTop() < 3600) ) {
         $(".doc-section4-letsbuild").removeClass("doc-section4-letsbuild-visible");
         $(".doc-section4-letsbuild").addClass("animated zoomIn");
       } else {
@@ -127,15 +127,15 @@ class Doc extends Component {
           <table style={{marginTop: '5%'}}>
             <tr>
               <td className='td-welcome'>
-                <a href='https://github.com/morpherious'><Avatar style={{height: '200px', width: '360px', marginBottom: '20%', marginTop: '20%', transform: 'rotate(270deg)'}} src='./../../images/mustafa.JPG'/></a><br/><br/><br/>
+                <a href='https://github.com/morpherious'><Avatar style={{height: '200px', width: '360px', marginBottom: '10%', marginTop: '10%', transform: 'rotate(270deg)'}} src='./../../images/mustafa.JPG'/></a><br/><br/><br/>
                 <img className='linkedin-logo' src='./../../images/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Mustafa Khan' href='https://www.linkedin.com/in/-mustafakhan/'></FlatButton>
               </td>
                 <td className='td-welcome'>
-                <a href='https://github.com/mm0nr0e'><Avatar style={{height: '200px', width: '360px', marginBottom: '20%', marginTop: '20%', transform: 'rotate(270deg)'}} src='./../../images/miranda.JPG'/></a><br/><br/><br/>
+                <a href='https://github.com/mm0nr0e'><Avatar style={{height: '200px', width: '360px', marginBottom: '10%', marginTop: '10%', transform: 'rotate(270deg)'}} src='./../../images/miranda.JPG'/></a><br/><br/><br/>
                 <img className='linkedin-logo2' src='./../../images/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Miranda Monroe' href='https://www.linkedin.com/in/mirandajeanmonroe/'></FlatButton>
               </td>
               <td className='td-welcome'>
-                <a href='https://github.com/j3rryj'><Avatar style={{height: '200px', width: '360px', marginBottom: '20%', marginTop: '20%', transform: 'rotate(270deg)'}} src='./../../images/jerry.JPG'/></a><br/><br/><br/>
+                <a href='https://github.com/j3rryj'><Avatar style={{height: '200px', width: '360px', marginBottom: '10%', marginTop: '10%', transform: 'rotate(270deg)'}} src='./../../images/jerry.JPG'/></a><br/><br/><br/>
                 <img className='linkedin-logo' src='./../../images/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Jerry Jong' href='https://www.linkedin.com/in/jerry-jong/'></FlatButton>
               </td>
             </tr>
