@@ -61,6 +61,8 @@ class Header extends Component {
             <Link to='/'>
               <FlatButton hoverColor='none' labelStyle={style.sub} label='/ PROTOTYPE v0.0.1 /' />
             </Link>
+
+            <FlatButton style={{marginLeft: '45%'}} labelStyle={{color: '#006CAA'}} label='Start Using Today!' href='http://github.com/TeamMJM/SpionIO'/>
           </div>
         </Paper>
       </header>

@@ -9,6 +9,7 @@ let scroll     = Scroll.animateScroll;
 import RaisedButton from 'material-ui/RaisedButton';
 import FlatButton from 'material-ui/FlatButton';
 import Paper from 'material-ui/Paper';
+import Avatar from 'material-ui/Avatar';
 
 // import stylesheets
 import './../styles/Doc.css';
@@ -33,14 +34,6 @@ const style = {
   paper: {
     height: '80px',
   },
-  team: {
-    height: 260,
-    width: 260,
-    margin: 20,
-    textAlign: 'center',
-    display: 'inline-block',
-    backgroundColor: '#E0E1E5',    
-  }
 };
 
 class Doc extends Component {
@@ -62,21 +55,6 @@ class Doc extends Component {
         $(".doc-section3-content").addClass("doc-section3-visible");
         $(".doc-section3-content").removeClass("animated fadeInLeftBig")
       }
-      // if ( ($(window).scrollTop() > 1700 ) && ($(window).scrollTop() < 3200) ) {
-      //   $(".doc-section4").removeClass("doc-section4-visible");
-      //   $(".doc-section4").addClass("animated fadeIn");
-      // } else {
-      //   $(".doc-section4").addClass("doc-section4-visible");
-      //   $(".doc-section4").removeClass("animated fadeIn")
-      // }
-
-      // if ( ($(window).scrollTop() > 1700 ) && ($(window).scrollTop() < 2900) ) {
-      //   $(".doc-section4-team").removeClass("doc-section4-team-visible");
-      //   $(".doc-section4-team").addClass("animated fadeInRight");
-      // } else {
-      //   $(".doc-section4-team").addClass("doc-section4-team-visible");
-      //   $(".doc-section4-team").removeClass("animated fadeInRight")
-      // }
       if ( ($(window).scrollTop() > 2630 ) && ($(window).scrollTop() < 3200) ) {
         $(".doc-section4-letsbuild").removeClass("doc-section4-letsbuild-visible");
         $(".doc-section4-letsbuild").addClass("animated zoomIn");
@@ -149,16 +127,16 @@ class Doc extends Component {
           <table style={{marginTop: '5%'}}>
             <tr>
               <td className='td-welcome'>
-                <a href='https://github.com/morpherious'><Paper zDepth={2} style={style.team} circle={true}></Paper></a><br/><br/><br/>
+                <a href='https://github.com/morpherious'><Avatar style={{height: '200px', width: '360px', marginBottom: '20%', marginTop: '20%', transform: 'rotate(270deg)'}} src='./../../images/mustafa.JPG'/></a><br/><br/><br/>
                 <img className='linkedin-logo' src='./../../images/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Mustafa Khan' href='https://www.linkedin.com/in/-mustafakhan/'></FlatButton>
               </td>
                 <td className='td-welcome'>
-                <a href='https://github.com/mm0nr0e'><Paper zDepth={2} style={style.team} circle={true}></Paper></a><br/><br/><br/>
+                <a href='https://github.com/mm0nr0e'><Avatar style={{height: '200px', width: '360px', marginBottom: '20%', marginTop: '20%', transform: 'rotate(270deg)'}} src='./../../images/miranda.JPG'/></a><br/><br/><br/>
                 <img className='linkedin-logo2' src='./../../images/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Miranda Monroe' href='https://www.linkedin.com/in/mirandajeanmonroe/'></FlatButton>
               </td>
               <td className='td-welcome'>
-                <a href='https://github.com/j3rryj'><Paper zDepth={2} style={style.team} circle={true}></Paper></a><br/><br/><br/>
-                <img className='linkedin-logo' src='./../../images/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Jerry Jong' href='https://www.linkedin.com/in/jerry-jong-94055/'></FlatButton>
+                <a href='https://github.com/j3rryj'><Avatar style={{height: '200px', width: '360px', marginBottom: '20%', marginTop: '20%', transform: 'rotate(270deg)'}} src='./../../images/jerry.JPG'/></a><br/><br/><br/>
+                <img className='linkedin-logo' src='./../../images/linkedin.png'/><FlatButton style={{float: 'left', marginTop: '1%', margin: '0 auto'}} hoverColor='none' labelStyle={{letterSpacing: '3px', padding: '0'}} label='Jerry Jong' href='https://www.linkedin.com/in/jerry-jong/'></FlatButton>
               </td>
             </tr>
           </table>
